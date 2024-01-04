@@ -1,6 +1,5 @@
 contIdade = contMasc = contFem = 0
 continua = 'S'
-
 while continua == 'S':
     print('-' * 30)
     print('     CADASTRO DE PESSOAS')
