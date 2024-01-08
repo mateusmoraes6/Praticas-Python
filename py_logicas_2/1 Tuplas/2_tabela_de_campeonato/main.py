@@ -1,0 +1,12 @@
+times = ('Palmeiras', 'Grêmio', 'Atlético-MG', 'Flamengo', 'Botafogo', 'Bragantino', 'Fluminense', 'Athletico-PR', 'Internacional', 'Fortaleza', 'São Paulo', 'Cuiabá', 'Corinthians', 'Cruzeiro', 'Vasco', 'Bahia', 'Santos', 'Goiás', 'Coritiba')
+
+print('-'*30)
+print(f'Listas de times do Brasileirão 2023: {times}.')
+print('-'*30)
+print(f'Os 5 primeiros são: {times[:5]}.')
+print('-'*30)
+print(f'Os 4 últimos são: {times[-4:]}.')
+print('-'*30)
+print(f'Times em ordem alfabética: {sorted(times)}.')
+print('-'*30)
+print(f'O Atlético-MG está na {times.index("Atlético-MG")+1}ª posição.')
