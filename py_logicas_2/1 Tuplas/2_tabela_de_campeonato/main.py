@@ -1,7 +1,7 @@
 times = ('Palmeiras', 'Grêmio', 'Atlético-MG', 'Flamengo', 'Botafogo', 'Bragantino', 'Fluminense', 'Athletico-PR', 'Internacional', 'Fortaleza', 'São Paulo', 'Cuiabá', 'Corinthians', 'Cruzeiro', 'Vasco', 'Bahia', 'Santos', 'Goiás', 'Coritiba')
 
 print('-'*30)
-print(f'Listas de times do Brasileirão 2023: {times}.')
+print(f'Listas de times: {times}.')
 print('-'*30)
 print(f'Os 5 primeiros são: {times[:5]}.')
 print('-'*30)
