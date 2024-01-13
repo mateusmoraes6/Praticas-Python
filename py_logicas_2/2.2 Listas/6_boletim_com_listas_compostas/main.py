@@ -17,8 +17,8 @@ while True:
     dados.clear()
 
     cont += 1
-    continua = str(input('Quer continuar? [S/N] '))
-    if continua in 'Nn':
+    resp = str(input('Quer continuar? [S/N] '))
+    if resp in 'Nn':
         break
 print('-='*10)
 print('No.    Nome        Média')
